@@ -23,8 +23,5 @@ insert into diretor values
 ('1','Pedro','1');
 
 select * from filme;
-
-
-
-
-
+select * from diretor;
+select count(*) from filmes where codigo_diretor = 1;
