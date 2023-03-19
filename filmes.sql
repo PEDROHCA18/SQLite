@@ -24,4 +24,4 @@ insert into diretor values
 
 select * from filme;
 select * from diretor;
-select count(*) from filmes where codigo_diretor = 1;
+select count(*) from filme where codigo_diretor = 1;
